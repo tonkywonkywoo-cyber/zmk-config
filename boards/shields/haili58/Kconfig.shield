@@ -1,8 +1,5 @@
 config SHIELD_HAILI58_LEFT
     def_bool $(shields_list_contains,haili58_left)
-
+  
 config SHIELD_HAILI58_RIGHT
     def_bool $(shields_list_contains,haili58_right)
-
-config SHIELD_HAILI58_DONGLE
-    def_bool $(shields_list_contains,haili58_dongle)
