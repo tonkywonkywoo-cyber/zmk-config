@@ -1,3 +1,4 @@
+name: zmk-keyboard-haili58
 build:
   settings:
     board_root: .

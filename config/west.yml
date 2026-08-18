@@ -10,5 +10,9 @@ manifest:
     - name: zmk
       remote: zmkfirmware
       import: app/west.yml
+    - name: haili58_zmk
+      url: https://github.com/Squalius-cephalus/haili58_zmk.git
+      revision: main
+      path: modules/haili58_zmk
   self:
     path: config

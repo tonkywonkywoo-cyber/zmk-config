@@ -18,3 +18,8 @@
 #     artifact-name: corne_left_with_studio
 #
 ---
+include:
+  - board: nrf52840_m2
+    shield: haili58_left
+  - board: nrf52840_m2
+    shield: haili58_right
